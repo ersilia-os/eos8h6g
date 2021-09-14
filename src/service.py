@@ -20,13 +20,11 @@ class Descriptor(object):
 
     def __init__(self):
         self.nbits = NBITS
-        self.radius = RADIUS
 
     def calc(self, mol):
         fp = pyAvalonTools.GetAvalonFP(mol, nBits=self.nbits)
         fp_np = np.zeros((1, self.nbits), dtype=DTYPE)
         DataStructs.ConvertToNumpyArray(fp, fp_np)
-        v = rd.GetHashedMorganFingerprint(mol, radius=self.radius, nBits=self.nbits)
         return fp_np
 
 
