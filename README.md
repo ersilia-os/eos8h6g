@@ -20,7 +20,7 @@ Peter Gedeck, Bernhard Rohde, and Christian Bartels. QSAR − How Good Is It in 
 * Checkpoints: the model checkpoints were obtained from the source publication
 
 ## License
-The GPL-v3 license applies to all parts of the repository that are not externally maintained libraries. This repository uses the externally maintained library "Avalon Tools", located at /model and licensed under a [BSD-3 License]()
+The GPL-v3 license applies to all parts of the repository that are not externally maintained libraries. This repository uses the externally maintained library "Avalon Tools", located at /src and licensed under a [BSD-3 License]()
 
 ## History
 - The model was downloaded and incorporated on September 13, 2021
