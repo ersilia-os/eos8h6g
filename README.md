@@ -1,26 +1,40 @@
-# Avalon Fingerprints
+# Avalon fingerprint
 
-### Model Identifiers
-* Slug: avalon
-* Ersilia ID: eos8h6g
-* Tags: fingerprint, ML, substructure
+Avalon is a path-based substructure key fingerprint (1024 bits), developed for substructure screen-out when searching. It is part of the Avalon Chemoinformatics Toolkit and has also been implemented as an external RDKit tool.
 
-## Model Description
-Substructure fingerprint for similarity search based on 16 features of the molecular graph
-* Input: SMILES
-* Output: 1024-bit vector (Bitvector representation of a molecule)
-* Model type: Regression
-* Training set: 143,000 compounds (link?)
+## Identifiers
 
-## Source code
-This model has been developed and published by:
-Peter Gedeck, Bernhard Rohde, and Christian Bartels. QSAR − How Good Is It in Practice? Comparison of Descriptor Sets on an Unbiased Cross Section of Corporate Data Sets. *Journal of Chemical Information and Modeling* 2006 46 (5), 1924-1936 DOI: [10.1021/ci050413p](https://pubs.acs.org/doi/full/10.1021/ci050413p)
+* EOS model ID: `eos8h6g`
+* Slug: `avalon`
 
-* Code: https://github.com/rdkit/rdkit/tree/master/External/AvalonTools
-* Checkpoints: the model checkpoints were obtained from the source publication
+## Characteristics
+
+* Input: `Compound`
+* Input Shape: `Single`
+* Task: `Regression`
+* Output: `Descriptor`
+* Output Type: `Integer`
+* Output Shape: `List`
+* Interpretation: Bitvector representation of a molecule
+
+## References
+
+* [Publication](https://pubs.acs.org/doi/full/10.1021/ci050413p)
+* [Source Code](https://github.com/rdkit/rdkit/tree/master/External/AvalonTools)
+* Ersilia contributor: [miquelduranfrigola](https://github.com/miquelduranfrigola)
+
+## Citation
+
+If you use this model, please cite the [original authors](https://pubs.acs.org/doi/full/10.1021/ci050413p) of the model and the [Ersilia Model Hub](https://github.com/ersilia-os/ersilia/blob/master/CITATION.cff).
 
 ## License
-The GPL-v3 license applies to all parts of the repository that are not externally maintained libraries. This repository uses the externally maintained library "Avalon Tools", located at `/src` and licensed under a [BSD-3 License](https://github.com/ersilia-os/eos8h6g/blob/main/src/LICENSE)
 
-## History
-- The model was downloaded and incorporated on September 13, 2021
+This package is licensed under a GPL-3.0 license. The model contained within this package is licensed under a BSD-3.0 license.
+
+Notice: Ersilia grants access to these models 'as is' provided by the original authors, please refer to the original code repository and/or publication if you use the model in your research.
+
+## About Us
+
+The [Ersilia Open Source Initiative](https://ersilia.io) is a Non Profit Organization ([1192266](https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5170657/full-print)) with the mission is to equip labs, universities and clinics in LMIC with AI/ML tools for infectious disease research.
+
+[Help us](https://www.ersilia.io/donate) achieve our mission!
