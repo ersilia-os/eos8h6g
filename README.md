@@ -23,6 +23,11 @@ Avalon is a path-based substructure key fingerprint (1024 bits), developed for s
 * [Source Code](https://github.com/rdkit/rdkit/tree/master/External/AvalonTools)
 * Ersilia contributor: [miquelduranfrigola](https://github.com/miquelduranfrigola)
 
+## Ersilia model URLs
+* [GitHub](https://github.com/ersilia-os/eos8h6g)
+* [AWS S3](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos8h6g.zip)
+* [DockerHub](https://hub.docker.com/r/ersiliaos/eos8h6g) (AMD64, ARM64)
+
 ## Citation
 
 If you use this model, please cite the [original authors](https://pubs.acs.org/doi/full/10.1021/ci050413p) of the model and the [Ersilia Model Hub](https://github.com/ersilia-os/ersilia/blob/master/CITATION.cff).

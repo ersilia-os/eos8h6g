@@ -26,5 +26,11 @@
     "Publication": "https://pubs.acs.org/doi/full/10.1021/ci050413p",
     "Source Code": "https://github.com/rdkit/rdkit/tree/master/External/AvalonTools",
     "License": "BSD-3.0",
-    "Contributor": "miquelduranfrigola"
+    "Contributor": "miquelduranfrigola",
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos8h6g.zip",
+    "DockerHub": "https://hub.docker.com/r/ersiliaos/eos8h6g",
+    "Docker Architecture": [
+        "AMD64",
+        "ARM64"
+    ]
 }
