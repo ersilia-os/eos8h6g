@@ -32,7 +32,7 @@ class Descriptor(object):
 @artifacts([JSONArtifact("model")])
 class Service(BentoService):
     @api(input=JsonInput(), batch=True)
-    def calculate(self, input: List[JsonSerializable]):
+    def run(self, input: List[JsonSerializable]):
         desc = Descriptor()
         input = input[0]
         output = []
