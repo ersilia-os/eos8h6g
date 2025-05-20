@@ -3,21 +3,18 @@
     "Slug": "avalon",
     "Status": "Ready",
     "Title": "Avalon fingerprint",
-    "Description": "Avalon is a path-based substructure key fingerprint (1024 bits), developed for substructure screen-out when searching. It is part of the Avalon Chemoinformatics Toolkit and has also been implemented as an external RDKit tool.\n",
+    "Description": "Avalon is a path-based substructure key fingerprint (1024 bits), developed for substructure screen-out when searching. It is part of the Avalon Chemoinformatics Toolkit and has also been implemented as an external RDKit tool.",
+    "Deployment": [
+        "Local"
+    ],
     "Source": "Local",
     "Source Type": "External",
+    "Task": "Representation",
+    "Subtask": "Featurization",
     "Input": [
         "Compound"
     ],
     "Input Dimension": 1,
-    "Task": "Representation",
-    "Subtask": "Featurization",
-    "Biomedical Area": [
-        "Any"
-    ],
-    "Target Organism": [
-        "Not Applicable"
-    ],
     "Output": [
         "Descriptor"
     ],
@@ -27,20 +24,23 @@
     "Tag": [
         "Fingerprint"
     ],
-    "Publication": "https://pubs.acs.org/doi/full/10.1021/ci050413p",
+    "Biomedical Area": [
+        "Any"
+    ],
+    "Target Organism": [
+        "Not Applicable"
+    ],
     "Publication Type": "Peer reviewed",
     "Publication Year": 2006,
+    "Publication": "https://pubs.acs.org/doi/full/10.1021/ci050413p",
     "Source Code": "https://github.com/rdkit/rdkit/tree/master/External/AvalonTools",
     "License": "BSD-3-Clause",
     "Contributor": "miquelduranfrigola",
     "Incorporation Date": "2021-09-14",
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos8h6g.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos8h6g",
     "Docker Architecture": [
         "AMD64",
         "ARM64"
-    ],
-    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos8h6g.zip",
-    "Deployment": [
-        "Local"
     ]
 }
