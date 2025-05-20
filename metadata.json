@@ -42,5 +42,7 @@
     "Docker Architecture": [
         "AMD64",
         "ARM64"
-    ]
+    ],
+    "Model Size": 1.0,
+    "Environment Size": 501.0
 }
