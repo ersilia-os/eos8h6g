@@ -50,7 +50,12 @@ _10 of 1024 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `501`
+- **Image Size (Mb):** `431.92`
 
+**Computational Performance (seconds):**
+- 10 inputs: `29.35`
+- 100 inputs: `19.57`
+- 10000 inputs: `227.08`
 
 ### References
 - **Source Code**: [https://github.com/rdkit/rdkit/tree/master/External/AvalonTools](https://github.com/rdkit/rdkit/tree/master/External/AvalonTools)
