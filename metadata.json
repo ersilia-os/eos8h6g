@@ -37,6 +37,8 @@
     "License": "BSD-3-Clause",
     "Contributor": "miquelduranfrigola",
     "Incorporation Date": "2021-09-14",
+    "Last Packaging Date": "2025-10-09",
+    "Release": "v1.0.0",
     "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos8h6g.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos8h6g",
     "Docker Architecture": [
@@ -45,10 +47,10 @@
     ],
     "Model Size": 1.0,
     "Environment Size": 518.0,
-    "Image Size": 431.92,
-    "Computational Performance 1": 29.35,
-    "Computational Performance 2": 19.08,
-    "Computational Performance 3": 19.57,
-    "Computational Performance 4": 56.99,
-    "Computational Performance 5": 227.08
+    "Image Size": 441.22,
+    "Computational Performance 1": 27.27,
+    "Computational Performance 2": 16.9,
+    "Computational Performance 3": 17.06,
+    "Computational Performance 4": 21.35,
+    "Computational Performance 5": 40.68
 }
