@@ -4,6 +4,7 @@ Avalon is a path-based substructure key fingerprint (1024 bits), developed for s
 
 This model was incorporated on 2021-09-14.
 
+
 ## Information
 ### Identifiers
 - **Ersilia Identifier:** `eos8h6g`
@@ -13,7 +14,7 @@ This model was incorporated on 2021-09-14.
 - **Task:** `Representation`
 - **Subtask:** `Featurization`
 - **Biomedical Area:** `Any`
-- **Target Organism:** `Not Applicable`
+- **Target Organism:** `Any`
 - **Tags:** `Fingerprint`
 
 ### Input
