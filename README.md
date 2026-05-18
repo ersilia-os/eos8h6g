@@ -59,7 +59,7 @@ _10 of 1024 columns are shown_
 
 ### References
 - **Source Code**: [https://github.com/rdkit/rdkit/tree/master/External/AvalonTools](https://github.com/rdkit/rdkit/tree/master/External/AvalonTools)
-- **Publication**: [https://pubs.acs.org/doi/full/10.1021/ci050413p](https://pubs.acs.org/doi/full/10.1021/ci050413p)
+- **Publication**: [https://doi.org/10.1021/ci050413p](https://doi.org/10.1021/ci050413p)
 - **Publication Type:** `Peer reviewed`
 - **Publication Year:** `2006`
 - **Ersilia Contributor:** [miquelduranfrigola](https://github.com/miquelduranfrigola)
