@@ -32,7 +32,7 @@
     ],
     "Publication Type": "Peer reviewed",
     "Publication Year": 2006,
-    "Publication": "https://pubs.acs.org/doi/full/10.1021/ci050413p",
+    "Publication": "https://doi.org/10.1021/ci050413p",
     "Source Code": "https://github.com/rdkit/rdkit/tree/master/External/AvalonTools",
     "License": "BSD-3-Clause",
     "Contributor": "miquelduranfrigola",
