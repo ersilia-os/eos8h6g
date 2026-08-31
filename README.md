@@ -2,7 +2,7 @@
 
 Avalon is a path-based substructure key fingerprint (1024 bits), developed for substructure screen-out when searching. It is part of the Avalon Chemoinformatics Toolkit and has also been implemented as an external RDKit tool.
 
-This model was incorporated on 2021-09-14.Last packaged on 2025-10-09.
+This model was incorporated on 2021-09-14.Last packaged on 2026-08-31.
 
 ## Information
 ### Identifiers
@@ -50,12 +50,12 @@ _10 of 1024 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `506`
-- **Image Size (Mb):** `441.22`
+- **Image Size (Mb):** `466.91`
 
 **Computational Performance (seconds):**
-- 10 inputs: `27.27`
-- 100 inputs: `17.06`
-- 10000 inputs: `40.68`
+- 10 inputs: `35.49`
+- 100 inputs: `18.58`
+- 10000 inputs: `41.11`
 
 ### References
 - **Source Code**: [https://github.com/rdkit/rdkit/tree/master/External/AvalonTools](https://github.com/rdkit/rdkit/tree/master/External/AvalonTools)
