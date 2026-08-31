@@ -28,16 +28,16 @@ This model was incorporated on 2021-09-14.Last packaged on 2025-10-09.
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
 |------|------|-----------|-------------|
-| feature_0000 | integer |  | Feature 0 of the Avalon fingerprints |
-| feature_0001 | integer |  | Feature 1 of the Avalon fingerprints |
-| feature_0002 | integer |  | Feature 2 of the Avalon fingerprints |
-| feature_0003 | integer |  | Feature 3 of the Avalon fingerprints |
-| feature_0004 | integer |  | Feature 4 of the Avalon fingerprints |
-| feature_0005 | integer |  | Feature 5 of the Avalon fingerprints |
-| feature_0006 | integer |  | Feature 6 of the Avalon fingerprints |
-| feature_0007 | integer |  | Feature 7 of the Avalon fingerprints |
-| feature_0008 | integer |  | Feature 8 of the Avalon fingerprints |
-| feature_0009 | integer |  | Feature 9 of the Avalon fingerprints |
+| feat_0000 | integer |  | Feature 0 of the Avalon fingerprints |
+| feat_0001 | integer |  | Feature 1 of the Avalon fingerprints |
+| feat_0002 | integer |  | Feature 2 of the Avalon fingerprints |
+| feat_0003 | integer |  | Feature 3 of the Avalon fingerprints |
+| feat_0004 | integer |  | Feature 4 of the Avalon fingerprints |
+| feat_0005 | integer |  | Feature 5 of the Avalon fingerprints |
+| feat_0006 | integer |  | Feature 6 of the Avalon fingerprints |
+| feat_0007 | integer |  | Feature 7 of the Avalon fingerprints |
+| feat_0008 | integer |  | Feature 8 of the Avalon fingerprints |
+| feat_0009 | integer |  | Feature 9 of the Avalon fingerprints |
 
 _10 of 1024 columns are shown_
 ### Source and Deployment
