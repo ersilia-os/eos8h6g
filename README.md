@@ -1,6 +1,6 @@
 # Avalon fingerprint
 
-Avalon is a path-based substructure key fingerprint (1024 bits), developed for substructure screen-out when searching. It is part of the Avalon Chemoinformatics Toolkit and has also been implemented as an external RDKit tool.
+Computes the Avalon fingerprint, a 1,024-bit representation that enumerates a defined set of structural features, among them atom environments, ring systems and connectivity paths, and hashes them into bits. Gedeck and colleagues at Novartis introduced it while benchmarking descriptor sets across a broad cross-section of corporate QSAR datasets, an unusually unbiased comparison, where it performed competitively against alternatives. Hashing means individual bits are not attributable to single features.
 
 This model was incorporated on 2021-09-14.Last packaged on 2026-08-31.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2021-09-14.Last packaged on 2026-08-31.
 ### Output
 - **Output Dimension:** `1024`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Bitvector representation of a molecule
+- **Interpretation:** 1024-bit Avalon fingerprint where each bit flags a hashed structural feature.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
