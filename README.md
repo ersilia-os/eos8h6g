@@ -1,8 +1,8 @@
 # Avalon fingerprint
 
-Computes the Avalon fingerprint, a 1024-bit vector in which classes of structural feature, among them atom environments, ring paths, hydrogen-count paths and graph-distance patterns, are enumerated and hashed into bits. Built for substructure screen-out in Novartis's Avalon cheminformatics system and now shipped with RDKit, it and HQSAR produced the most good models of the nine descriptor sets Gedeck and colleagues compared across more than 450 corporate QSAR datasets, an unusually unbiased benchmark. Hashing means no single bit traces back to one feature.
+Computes the Avalon fingerprint, a 1024-bit vector in which classes of structural feature, among them atom environments, ring paths, hydrogen-count paths and graph-distance patterns, are enumerated and hashed into bits. Built for substructure screen-out in Novartiss Avalon cheminformatics system and now shipped with RDKit, it and HQSAR produced the most good models of the nine descriptor sets Gedeck and colleagues compared across more than 450 corporate QSAR datasets, an unusually unbiased benchmark. Hashing means no single bit traces back to one feature.
 
-This model was incorporated on 2021-09-14.Last packaged on 2026-08-31.
+This model was incorporated on 2021-09-14.Last packaged on 2026-10-07.
 
 ## Information
 ### Identifiers
@@ -50,12 +50,12 @@ _10 of 1024 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `507`
-- **Image Size (Mb):** `466.91`
+- **Image Size (Mb):** `460.5`
 
 **Computational Performance (seconds):**
-- 10 inputs: `35.49`
-- 100 inputs: `18.58`
-- 10000 inputs: `41.11`
+- 10 inputs: `26.57`
+- 100 inputs: `16.59`
+- 10000 inputs: `28.51`
 
 ### References
 - **Source Code**: [https://github.com/rdkit/rdkit/tree/master/External/AvalonTools](https://github.com/rdkit/rdkit/tree/master/External/AvalonTools)
