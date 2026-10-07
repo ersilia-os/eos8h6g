@@ -1,6 +1,6 @@
 # Avalon fingerprint
 
-Computes the Avalon fingerprint, a 1,024-bit representation that enumerates a defined set of structural features, among them atom environments, ring systems and connectivity paths, and hashes them into bits. Gedeck and colleagues at Novartis introduced it while benchmarking descriptor sets across a broad cross-section of corporate QSAR datasets, an unusually unbiased comparison, where it performed competitively against alternatives. Hashing means individual bits are not attributable to single features.
+Computes the Avalon fingerprint, a 1024-bit vector in which classes of structural feature, among them atom environments, ring paths, hydrogen-count paths and graph-distance patterns, are enumerated and hashed into bits. Built for substructure screen-out in Novartis's Avalon cheminformatics system and now shipped with RDKit, it and HQSAR produced the most good models of the nine descriptor sets Gedeck and colleagues compared across more than 450 corporate QSAR datasets, an unusually unbiased benchmark. Hashing means no single bit traces back to one feature.
 
 This model was incorporated on 2021-09-14.Last packaged on 2026-08-31.
 
