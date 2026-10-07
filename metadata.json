@@ -3,7 +3,7 @@
     "Slug": "avalon",
     "Status": "Ready",
     "Title": "Avalon fingerprint",
-    "Description": "Computes the Avalon fingerprint, a 1024-bit vector in which classes of structural feature, among them atom environments, ring paths, hydrogen-count paths and graph-distance patterns, are enumerated and hashed into bits. Built for substructure screen-out in Novartis's Avalon cheminformatics system and now shipped with RDKit, it and HQSAR produced the most good models of the nine descriptor sets Gedeck and colleagues compared across more than 450 corporate QSAR datasets, an unusually unbiased benchmark. Hashing means no single bit traces back to one feature.",
+    "Description": "Computes the Avalon fingerprint, a 1024-bit vector in which classes of structural feature, among them atom environments, ring paths, hydrogen-count paths and graph-distance patterns, are enumerated and hashed into bits. Built for substructure screen-out in Novartiss Avalon cheminformatics system and now shipped with RDKit, it and HQSAR produced the most good models of the nine descriptor sets Gedeck and colleagues compared across more than 450 corporate QSAR datasets, an unusually unbiased benchmark. Hashing means no single bit traces back to one feature.",
     "Deployment": [
         "Local"
     ],
@@ -37,7 +37,7 @@
     "License": "BSD-3-Clause",
     "Contributor": "miquelduranfrigola",
     "Incorporation Date": "2021-09-14",
-    "Last Packaging Date": "2026-08-31",
+    "Last Packaging Date": "2026-10-07",
     "Release": "v2.0.0",
     "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos8h6g.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos8h6g",
@@ -47,10 +47,10 @@
     ],
     "Model Size": 1.0,
     "Environment Size": 507.0,
-    "Image Size": 466.91,
-    "Computational Performance 1": 35.49,
-    "Computational Performance 2": 21.34,
-    "Computational Performance 3": 18.58,
-    "Computational Performance 4": 32.66,
-    "Computational Performance 5": 41.11
+    "Image Size": 460.5,
+    "Computational Performance 1": 26.57,
+    "Computational Performance 2": 16.49,
+    "Computational Performance 3": 16.59,
+    "Computational Performance 4": 18.73,
+    "Computational Performance 5": 28.51
 }
