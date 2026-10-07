@@ -24,10 +24,16 @@ def calc(mol):
     return fp_np
 
 
+EMPTY_FP = [None] * NBITS
+
+
 def get_fp(smi_list):
     output = []
     for smi in smi_list:
         mol = Chem.MolFromSmiles(smi)
+        if mol is None:
+            output += [EMPTY_FP]
+            continue
         fp = calc(mol)
         output += [fp]
     return output
