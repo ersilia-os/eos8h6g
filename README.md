@@ -2,7 +2,8 @@
 
 Computes the Avalon fingerprint, a 1024-bit vector in which classes of structural feature, among them atom environments, ring paths, hydrogen-count paths and graph-distance patterns, are enumerated and hashed into bits. Built for substructure screen-out in Novartiss Avalon cheminformatics system and now shipped with RDKit, it and HQSAR produced the most good models of the nine descriptor sets Gedeck and colleagues compared across more than 450 corporate QSAR datasets, an unusually unbiased benchmark. Hashing means no single bit traces back to one feature.
 
-This model was incorporated on 2021-09-14.Last packaged on 2026-10-07.
+This model was incorporated on 2021-09-14.
+Last packaged on 2026-10-07.
 
 ## Information
 ### Identifiers
@@ -46,6 +47,7 @@ _10 of 1024 columns are shown_
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos8h6g](https://hub.docker.com/r/ersiliaos/eos8h6g)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos8h6g.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos8h6g.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos8h6g_v2.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos8h6g_v2.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1`
